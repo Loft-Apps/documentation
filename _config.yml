@@ -2,7 +2,7 @@ remote_theme: pmarsceill/just-the-docs
 title: Loft App Documentation
 description: Documentation for LoftApps
 
-logo: "loft_logo.png"
+logo: "/loft_logo.png"
 
 # Aux links for the upper right navigation
 aux_links:
