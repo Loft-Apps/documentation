@@ -2,6 +2,11 @@ remote_theme: pmarsceill/just-the-doc
 title: Loft App Documentation
 description: Documentation for LoftApps
 
+# Aux links for the upper right navigation
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/pmarsceill/just-the-docs"
+
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
