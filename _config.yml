@@ -4,8 +4,8 @@ description: Documentation for LoftApps
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+  "More":
+    - "more"
 
 search_enabled: true
 search:
