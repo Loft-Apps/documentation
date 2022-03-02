@@ -1,3 +1,5 @@
 remote_theme: pmarsceill/just-the-doc
 title: Loft App Documentation
 description: Documentation for LoftApps
+
+search_enabled: true
