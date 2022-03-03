@@ -1,3 +1,9 @@
+---
+layout: default
+title: Create New Asset
+parent: index
+new_order: 1
+---
 
 
 # Create New Asset
