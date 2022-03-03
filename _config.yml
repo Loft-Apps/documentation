@@ -4,6 +4,8 @@ description: Documentation for LoftApps
 
 logo: "/loft_logo.png"
 
+color_scheme: dark
+
 # Aux links for the upper right navigation
 aux_links:
   "More":
