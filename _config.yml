@@ -8,6 +8,8 @@ color_scheme: dark
 
 # Aux links for the upper right navigation
 aux_links:
+  "Command Line":
+    - "command_line"
   "More":
     - "more"
 
