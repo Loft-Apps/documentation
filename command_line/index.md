@@ -3,29 +3,60 @@
 
 # Loft CLI (Command Line Interface)
 
+The Loft CLI provides all the power of Loft using commands in a shell.  This is ideal for integrating Loft into various scripts.
+
+This document provides a quick reference to do common tasks.
+
+
+## Authentication
+```
+> loft login
+```
+
+
+## Create a local sandbox
+
+```
+> loft init MySandbox
+```
+
+## Attach a Loft project to the sandbox
+```
+> loft config –site=MySite
+> loft config –project=MyProject
+```
+
+## This could have been done in one line
+```
+> loft init MySandbox --site=MySite –project=MyProject
+```
+
+
+## Create an asset
+```
+> loft create character/main01
+```
+
+
+## Create a new transport asset in a delivery folder
+```
+> mkdir delivery
+> cd delivery
+> loft create Delivery01 --repo_type=transport
+```
+
+
+
+
+
+
 ## Sandboxes
 
 ### Create a new loft sandbox
 ```
-> loft init                 # simple init
-> loft init --type git      # create with a git repository
-> loft init --type tactic   # create with a tactic repository
-```
-
-
-### Set the server
-```
-> loft init --server http://192.168.115.129
-```
-
-### Set the project
-```
-> loft init --project loft
-```
-
-### Set the authentication ticket
-```
-> loft init --ticket XYZ123
+> loft init                     # simple init
+> loft init --type git          # create with a git repository
+> loft init --type transport    # create with a transport repository
 ```
 
 
