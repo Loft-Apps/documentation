@@ -1,9 +1,10 @@
 ---
-title: Why Loft
 layout: default
-nav_order: 1
-has_chlildren: true
+title: Introduction
+nav_order: 2
+has_children: true
 ---
+
 
 # Introduction
 
