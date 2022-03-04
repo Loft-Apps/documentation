@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Create New Asset
-parent: index
+parent: Navigate
 new_order: 1
 ---
 

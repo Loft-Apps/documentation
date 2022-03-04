@@ -1,3 +1,10 @@
+---
+layout: default
+title: Search Assets
+parent: Navigate
+new_order: 3
+---
+
 
 
 # Search the Sandbox

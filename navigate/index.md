@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Navigate
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
@@ -21,6 +21,8 @@ The navigate allows you to navigate the local sandbox.  It is presented as direc
 The navigate folder view looks a lot like what you would find in Windows Explorer or OSX Finder.  Each file will have a simple file icon and regular folders will have a file icon.  However, whenever a folder is a Loft Asset, Loft will display the preview of the asset with some special buttons on the right to interact with those assets.
 
 The Navigate view allows you to navigate up and down folders to browse through the file structure for assets.  You can use the search mechanism to find assets with the file structure.  This is useful is you have a deeply nested file structure.
+
+The view will show a listing of items in the folder.  When an item is an asset, it will have the image of the icon beside it.
 
 
 ## Assets
