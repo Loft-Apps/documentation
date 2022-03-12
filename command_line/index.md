@@ -167,33 +167,6 @@ Committed design.md
 ```
 
 
-### Create a new version of the asset
-```
-> cd CHR001
-> loft version CHR001
-Created new version of CHR001
-
-> loft version CHR001
-! No changes
-
-> cat "A new version" > CHR001/design.md
-
-
-> loft version CHR001
-Commited design.md
-Created new version of CHR001
-```
-
-### See all of the versions
-```
-> loft log CHR001
-DGT344TVG
-ZWERTY123
-
-> loft checkout CHR001 DGT344TVG
-Checked out version DGT344TVG
-
-```
 
 
 

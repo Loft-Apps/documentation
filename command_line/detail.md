@@ -1,3 +1,8 @@
+---
+title: Command Line Help
+layout: default
+---
+
 
 
 ## Main Loft Help
@@ -64,6 +69,41 @@ optional arguments:
                         Repository this sandbox points to
 
 
+```
+
+## start
 
 
 ```
+usage: loft start [-h] project_code
+
+Start a new Project
+
+positional arguments:
+  project_code  Code used to identify project
+
+optional arguments:
+  -h, --help    show this help message and exit
+
+```
+
+
+## login
+
+```
+
+usage: loft login [-h] [-p PASSWORD] [login]
+
+Authenticate to LoftHub Server
+
+positional arguments:
+  login                 Loft Username
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PASSWORD, --password PASSWORD
+                        Loft password
+
+
+```
+
