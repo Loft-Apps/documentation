@@ -159,16 +159,46 @@ Committed design.md
 ```
 
 
-## Push a new version to the server
+### Push a new version to the server
 
 ```
 > cd CHR001
 > loft push .
 ```
 
+## Transport
+
+### Download a delivery to current directory
+
+```
+> cd MyDownload
+> loft download <CODE>
+```
 
 
+### Download delivery when already logged in
+```
+> cd <SANBOX_BASE_DIR>
+> loft download Delivery01
+```
 
+### Add files to a transport asset and push back to server
+
+NOTE: the invite list currently does not get copied to the server.  This means that updates from another user will not notify users yet.
+```
+> cd Delivery01
+> cp <FILES> .
+> loft add *
+> loft push
+```
+
+### Add invites
+
+NOTE: this does not exist yet
+```
+> cd Delivery01
+> loft invite joe@company.com
+```
 
 
 
