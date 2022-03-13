@@ -7,7 +7,7 @@ has_chlildren: true
 
 # Introduction
 
-![Loft Logo](images/loft_logo.png){: style="padding: 20px"}
+![Loft Logo](images/loft_logo.1.png){: style="padding: 20px"}
 
 
 ## What is Loft?
