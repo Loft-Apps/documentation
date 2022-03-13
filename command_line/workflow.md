@@ -111,7 +111,18 @@ The freelance can then checkout the asset, which will all the files of the asset
 ~~~
 
 
+## Updates to the delivery
 
+More files can be added to the delivery asset using the same process.
+~~~
+# Add more files to the asset
+> loft add <MORE_FILES>
+> loft push
+~~~
+
+If the freelancer has permission, they can also add files to the delivery, allowing for back and forth delivery of new versions of the asset.
+
+NOTE that the Transport asset type is designed for efficient transfer of assets from on place to another.  It is not an ideal repository type for updating files.  This is better done using the "Git" repository type with the full poweer, versioning and wealth of tools availale to Git.
 
 
 
