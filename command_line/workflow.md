@@ -1,5 +1,5 @@
 ---
-title: Command Line Help
+title: Command Line Workflows
 layout: default
 ---
 
@@ -11,6 +11,10 @@ layout: default
 ## Deliver to a Freelancer
 
 
+
+### Set up sandbox
+
+
 A project owner will start initiating a new sanbox and attach it to the project on LoftHub
 
 ~~~
@@ -18,6 +22,8 @@ A project owner will start initiating a new sanbox and attach it to the project 
 > loft init MyProject --site=MySite --project=MyProject
 > cd MyProject
 ~~~
+
+### Delivery Asset
 
 The project owner will then create a new delivery asset.  This asset is a package that will be sent to the freelancer
 
@@ -52,10 +58,10 @@ Only files that are specifically added to the asset will be pushed to the server
 ~~~
 
 
-## TODO: add invites
+### TODO: Add invites
 
 
-
+### Push files to server
 
 When all of the desired files are added to the asset, they can be pushed to the server
 
@@ -65,6 +71,46 @@ When all of the desired files are added to the asset, they can be pushed to the 
 ~~~
 
 Everytime a push is made to the server, a new version is recorded.  All invites to the asset will be notified of the new pushed version of the delivery.
+
+
+
+
+
+## Freelancer recieves files
+
+The freelancer will recieve a notification that a delivery is ready for them.  In the notification will be a link (for a GUI workflow) or the files can be downloaed to any folder using the invite code
+
+
+~~~
+# Create a new base folder to download files for this project
+> makedir MyProject
+> cd MyProject
+
+
+# push all of the added files to the server
+> loft download <INVITE_CODE>
+~~~
+
+
+The download command is a convenience method which authenticates a user and downloads the delivery.  This process can be done manually by initiizing a new sandbox and checking out the asset
+
+
+~~~
+# Login to LoftHub
+> loft login
+
+# Create a new sandbox
+> loft create MyProject --site=MySite --project=MyProject
+> cd MyProject
+~~~
+
+The freelance can then checkout the asset, which will all the files of the asset from the server.
+~~~
+# Checkout the asset
+> loft checkout feelancers/Frelancer1/Delivery01
+~~~
+
+
 
 
 
