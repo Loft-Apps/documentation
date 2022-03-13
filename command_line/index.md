@@ -9,22 +9,42 @@ This document provides a quick reference to do common tasks.
 
 
 ## Authentication
+
+In order to interact with the LoftHub servers, you need to be logged in.  This can be done in the command line:
 ```
 > loft login
 ```
 
+After executing this, you will be prompted with a name and password.
+
 
 ## Create a local sandbox
+
+Sandboxes are where you work.  This will create a new sandbox
 
 ```
 > loft init MySandbox
 ```
 
 ## Attach a Loft project to the sandbox
+
+Sandboxes need to be attached to a project in LoftHub in order to share files.  A sandbox can be configured using the "config" command.
+
 ```
 > loft config –site=MySite
 > loft config –project=MyProject
 ```
+
+These will attach a site (organization) and a project to the the sandbox.  In larger projects, there
+may be multiple repositories.  The sandbox will automatically be set to the "default" repository, however, this can be set using the "config" command.
+
+
+```
+> loft config –repo=MyRepo
+```
+
+
+
 
 ## This could have been done in one line
 ```
